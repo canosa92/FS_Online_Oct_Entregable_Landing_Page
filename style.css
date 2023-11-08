@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font: futura,sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(0, 157, 149);
+}
+.logo{
+    margin-left: 15px;
+}
+
+.lista-nav{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+}
+.Iconos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:  15px;
+}
+
+.TextoPortada{
+    background-image: url(/img/planet-skin.png) cover;
+    width: 15px;
+    height: 100%;
+    background-size: 100%;
+    flex-direction: column;
+    padding-left: 20px;
+    position: relative;
+    justify-content: flex-end;
+}
